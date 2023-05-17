@@ -1,0 +1,12 @@
+[package]
+name = "test-elastic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+elasticsearch = "8.5.0-alpha.1"
+serde = "~1"
+serde_json = "~1"
+tokio = { version = "*", features = ["full"] }
+chrono = "0.4.23"
+rand =  "0.8.5"
